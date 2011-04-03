@@ -9,6 +9,7 @@ begin
     gemspec.authors = ["Hiten Parmar"]
     gemspec.add_dependency 'thin'
     gemspec.add_dependency 'rack'
+    gemspec.executables = ['atrium']
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: gem install jeweler"

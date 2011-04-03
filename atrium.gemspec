@@ -5,13 +5,24 @@
 
 Gem::Specification.new do |s|
   s.name = %q{atrium}
-  s.version = "0.4.0"
+  s.version = "1.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Hiten Parmar"]
   s.date = %q{2011-04-02}
+  s.default_executable = %q{atrium}
   s.description = %q{Instant webserver.}
   s.email = %q{hrparmar@gmail.com}
+  s.executables = ["atrium"]
+  s.files = [
+    "Atrium.gemspec",
+    "Rakefile",
+    "VERSION",
+    "atrium.gemspec",
+    "bin/atrium",
+    "pkg/Atrium-0.4.0.gem",
+    "pkg/atrium-0.4.0.gem"
+  ]
   s.homepage = %q{http://h10labs.com}
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.5.3}
