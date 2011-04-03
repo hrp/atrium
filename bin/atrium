@@ -1,0 +1,18 @@
+#
+# Atrium
+#
+# Instant webserver written in Ruby
+#
+# Hiten Parmar
+# 2011
+# http://github.com/hrp
+#
+
+['rubygems', 'thin', 'rack', 'socket'].each {|file| require file }
+
+port = ARGV[0] || 7777
+
+Thin::Server.start(IPSocket.getaddress(Socket.gethostname), port) do
+  use Rack::CommonLogger
+  run Rack::Directory.new(Dir.pwd)
+end
