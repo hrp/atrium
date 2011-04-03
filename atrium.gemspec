@@ -18,7 +18,6 @@ Gem::Specification.new do |s|
     "README.md"
   ]
   s.files = [
-    "Atrium.gemspec",
     "README.md",
     "Rakefile",
     "VERSION",
