@@ -26,7 +26,8 @@ Gem::Specification.new do |s|
     "bin/atrium",
     "pkg/Atrium-0.4.0.gem",
     "pkg/atrium-0.4.0.gem",
-    "pkg/atrium-1.0.0.gem"
+    "pkg/atrium-1.0.0.gem",
+    "pkg/atrium-1.1.0.gem"
   ]
   s.homepage = %q{http://h10labs.com}
   s.require_paths = ["lib"]
